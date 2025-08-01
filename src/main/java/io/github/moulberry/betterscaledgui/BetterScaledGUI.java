@@ -58,7 +58,7 @@ public class BetterScaledGUI {
                 scaling = 3;
             } else {
                 try {
-                    scaling = Integer.parseInt(args[0]);
+                    scaling = Float.parseFloat(args[0]);
                 } catch(Exception e) {
                     sender.addChatMessage(new ChatComponentText(
                             PREFIX+EnumChatFormatting.RED+"Invalid scaling identifier. Use '/inventoryscale help' for assistance"));
