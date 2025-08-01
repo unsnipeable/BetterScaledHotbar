@@ -20,7 +20,7 @@ public class MixinGuiIngame {
         int screenHeight = sr.getScaledHeight();
 
         float offsetX = (screenWidth / 2.0F) * (1 - scale);
-        float offsetY = (screenHeight - 22*scale) * (1 - scale);
+        float offsetY = (screenHeight - 22*scale);
 
         GlStateManager.pushMatrix();
         GlStateManager.translate(offsetX, offsetY, 0);
