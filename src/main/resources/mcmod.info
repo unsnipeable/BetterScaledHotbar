@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterscaledhotbar",
+  "name": "BetterScaledHotbar",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["matanku","Moulberry"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
